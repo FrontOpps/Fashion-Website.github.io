@@ -3,10 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Template</title>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="./assets/js/tailwind.js"></script>
 </head>
-<!-- 16 Oct 2026  Start From-->
 <body>
-    Business Template
+    <div class="container">
+        <form class="login-form" id="loginForm">
+            <h2>Login</h2>
+            <div class="input-group">
+                <input type="text" placeholder="Username" required>
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="Password" required>
+            </div>
+            <button type="submit">Login</button>
+            <p class="message">Not registered? <a href="#">Create an account</a></p>
+        </form>
+    </div>
+    <script src="./assets/js/styles.js"></script>
 </body>
 </html>
