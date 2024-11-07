@@ -1,26 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Fashion Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <script src="./assets/js/tailwind.js"></script>
 </head>
-<body>
-    <div class="container">
-        <form class="login-form" id="loginForm">
-            <h2>Login</h2>
-            <div class="input-group">
-                <input type="text" placeholder="Username" required>
+
+<body class="bg-white text-[#242323] font-sans font-normal bg-[#f2f2f2]">
+    <section class="px-24">
+        <header class="grid grid-cols-2 gap-4 p-4">
+            <div class="">
+                <img src="./assets/images/logo.png" alt="logo" class="h-14">
             </div>
-            <div class="input-group">
-                <input type="password" placeholder="Password" required>
+            <div class="flex justify-end items-center grid grid-cols-5 gap-3">
+                <a href="#" class="uppercase">Catalog</a>
+                <a href="#" class="uppercase">Fashion</a>
+                <a href="#" class="uppercase">Favorite</a>
+                <a href="#" class="uppercase">Life Style</a>
+                <button class="uppercase text-white py-2 px-2 bg-black rounded-md">SIGN UP</button>
             </div>
-            <button type="submit">Login</button>
-            <p class="message">Not registered? <a href="#">Create an account</a></p>
-        </form>
-    </div>
-    <script src="./assets/js/styles.js"></script>
+            </div>
+        </header>
+        <main class="">
+            <img src="./assets/images/banner.png" alt="banner" class="w-full rounded-3xl">
+        </main>
+    </section>
+    <section class="bg-[#EBD96B] flex items-center w-full px-32 py-8 grid grid-cols-6 gap-4 my-16">
+        <img src="./assets/images/hnm.png" class="h-16" alt="">
+        <img src="./assets/images/obey.png" class="h-16" alt="">
+        <img src="./assets/images/shopify.png" class="h-16" alt="">
+        <img src="./assets/images/lacoste.png" class="h-16" alt="">
+        <img src="./assets/images/levi's.png" class="h-16" alt="">
+        <img src="./assets/images/amazon.png" class="h-16" alt="">
+    </section>
+    <section class="px-24">
+        <img src="./assets/images/newArrival.png" class="h-8" alt="">
+        <div class="grid grid-cols-3 gap-20 my-16">
+            <div>
+                <img src="./assets/images/newArrivals1.png" alt="">
+                <div class="grid grid-cols-3 my-7">
+                    <div class="col-span-2">
+                        <p class="text-sm">Hoodies & Sweetshirt</p>
+                        <p class="text-xs text-[7F7F7F]"> Explore Now</p>
+                    </div>
+                    <div class="flex justify-end items-center">
+                        <img src="./assets/images/icon-explore.svg" class="w-[1.5rem]" alt="">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./assets/images/newArrivals2.png" alt="">
+                <div class="grid grid-cols-3 my-7">
+                    <div class="col-span-2">
+                        <p class="text-sm">Coats & Parkas</p>
+                        <p class="text-xs text-[7F7F7F]"> Explore Now</p>
+                    </div>
+                    <div class="flex justify-end items-center">
+                        <img src="./assets/images/icon-explore.svg" class="w-[1.5rem]" alt="">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./assets/images/newArrivals3.png" alt="">
+                <div class="grid grid-cols-3 my-7">
+                    <div class="col-span-2">
+                        <p class="text-sm">Tees & T-Shirt</p>
+                        <p class="text-xs text-[7F7F7F]"> Explore Now</p>
+                    </div>
+                    <div class="flex justify-end items-center">
+                        <img src="./assets/images/icon-explore.svg" class="w-[1.5rem]" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-[#EBD96B] w-full my-16">
+        <img src="./assets/images/Banner2.png" alt="">
+
+    </section>
+    <section class="px-24">
+        <img src="./assets/images/youngFavroite.png" class="h-8" alt="">
+        <div class="grid grid-cols-2 gap-12 my-16">
+            <div>
+                <img src="./assets/images/youngFavroite1.png" class="rounded-md" alt="">
+                <div class="grid grid-cols-3 my-7">
+                    <div class="col-span-2">
+                        <p class="text-sm">Trending on instagram</p>
+                        <p class="text-xs text-[7F7F7F]"> Explore Now</p>
+                    </div>
+                    <div class="flex justify-end items-center">
+                        <img src="./assets/images/icon-explore.svg" class="w-[1.5rem]" alt="">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./assets/images/youngFavroite2.png" class="rounded-md" alt="">
+                <div class="grid grid-cols-3 my-7">
+                    <div class="col-span-2">
+                        <p class="text-sm">All Under $40</p>
+                        <p class="text-xs text-[7F7F7F]"> Explore Now</p>
+                    </div>
+                    <div class="flex justify-end items-center">
+                        <img src="./assets/images/icon-explore.svg" class="w-[1.5rem]" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="px-24">
+        <div class="grid grid-cols-2 gap-12 my-16 flex items-center">
+            <div>
+                <p class="text-5xl font-bold">DOWNLOAD APP & <br>
+                    GET THE VOUCHER!</p>
+                <p class="text-2xl font-normal text-[#7c7c7c] my-[40px]">Get 30% off for first transaction using <br>
+                    Rondovision mobile app for now.</p>
+                <div class="grid grid-cols-2 gap-4 my-7">
+                    <img src="./assets/images/appstore.png" class="h-[70px]" alt="">
+                    <img src="./assets/images/plsystore.png" class="h-[70px]" alt="">
+                </div>
+            </div>
+            <div>
+                <img src="./assets/images/mobile.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="bg-[#EBD96B] w-full py-36 text-center text-white">
+        <p class="text-3xl font-bold">JOIN SHOPPING COMMUNITY TO <br>GET MONTHLY PROMO</p>
+        <p class="mt-2">Type your email down below and be young wild generation</p>
+        <div class="relative w-[300px] m-auto mt-8">
+            <input type="text" placeholder="Add your email here" class="px-4 py-2 w-full">
+            <button class="absolute right-[10px] top-[3px] uppercase text-white py-1 px-2 bg-black rounded-md">SEND</button>
+        </div>
+
+    </section>
 </body>
+
 </html>
